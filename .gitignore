@@ -1,0 +1,14 @@
+.vs/
+*.user
+*.suo
+[Bb]in/
+[Oo]bj/
+*.dll
+*.pdb
+*.mdf
+*.ldf
+packages/
+*.nupkg
+Thumbs.db
+*.tmp
+*.bak

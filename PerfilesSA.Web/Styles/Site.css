@@ -1,0 +1,169 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #1a3d6d;
+    border-bottom: 3px solid #1a3d6d;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #1a3d6d;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.panel-formulario, .panel-tabla {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+    .campo label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+.input-texto, .input-select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+    .input-texto:focus, .input-select:focus {
+        border-color: #1a3d6d;
+        outline: none;
+    }
+
+.campo-acciones {
+    margin-top: 20px;
+}
+
+.boton {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.boton-primario {
+    background-color: #1a3d6d;
+    color: #ffffff;
+}
+
+    .boton-primario:hover {
+        background-color: #14305a;
+    }
+
+.boton-secundario {
+    background-color: #e2e8f0;
+    color: #2c3e50;
+}
+
+    .boton-secundario:hover {
+        background-color: #cbd5e0;
+    }
+
+.mensaje-error {
+    color: #c0392b;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+}
+
+.mensaje {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.mensaje-exito {
+    color: #1e7e34;
+}
+
+.mensaje-error-fondo {
+    color: #c0392b;
+}
+
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .tabla-datos th {
+        background-color: #1a3d6d;
+        color: #ffffff;
+        text-align: left;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .tabla-datos td {
+        padding: 10px;
+        border-bottom: 1px solid #e2e8f0;
+        font-size: 14px;
+    }
+
+    .tabla-datos tr:hover {
+        background-color: #f4f6f8;
+    }
+
+.etiqueta-activo {
+    background-color: #d4edda;
+    color: #1e7e34;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.etiqueta-inactivo {
+    background-color: #f8d7da;
+    color: #c0392b;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.enlace-accion {
+    color: #1a3d6d;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+    .enlace-accion:hover {
+        text-decoration: underline;
+    }

@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="PerfilesSA.Contratos\PerfilesSA.Contratos.csproj" Id="61b175d6-067b-422c-8f90-28f4745890dc" />
+  <Project Path="PerfilesSA.DAL\PerfilesSA.DAL.csproj" Id="4ed99825-ecbd-4276-b363-d8876d41b4eb" />
+  <Project Path="PerfilesSA.Entidades\PerfilesSA.Entidades.csproj" Id="c89e0d33-9d09-48ba-9e9c-3cec05bf5cea" />
+  <Project Path="PerfilesSA.ServicioWeb\PerfilesSA.ServicioWeb.csproj" Id="48c6b812-9ef6-4361-bfdd-32e79470a8c7" />
+  <Project Path="PerfilesSA.Web\PerfilesSA.Web.csproj" Id="2e7d6917-fd59-4ee7-8b44-48f4b1fa3d70">
+    <BuildDependency Project="PerfilesSA.ServicioWeb\PerfilesSA.ServicioWeb.csproj" />
+  </Project>
+</Solution>
