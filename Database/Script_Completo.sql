@@ -66,7 +66,7 @@ GO
 USE PerfilesSA_DB;
 GO
 
--- SP_Departamento_Insertar
+-- SP Departamento Insertar
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Departamento_Insertar')
     DROP PROCEDURE SP_Departamento_Insertar;
 GO
@@ -91,7 +91,7 @@ BEGIN
 END
 GO
 
--- SP_Departamento_Actualizar
+-- SP Departamento Actualizar
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Departamento_Actualizar')
     DROP PROCEDURE SP_Departamento_Actualizar;
 GO
@@ -123,7 +123,7 @@ BEGIN
 END
 GO
 
--- SP_Departamento_CambiarEstado (con cascada a empleados)
+-- SP Departamento CambiarEstado (con cascada a empleados)
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Departamento_CambiarEstado')
     DROP PROCEDURE SP_Departamento_CambiarEstado;
 GO
@@ -165,7 +165,7 @@ BEGIN
 END
 GO
 
--- SP_Departamento_ObtenerTodos
+-- SP Departamento ObtenerTodos
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Departamento_ObtenerTodos')
     DROP PROCEDURE SP_Departamento_ObtenerTodos;
 GO
@@ -180,7 +180,7 @@ BEGIN
 END
 GO
 
--- SP_Departamento_ObtenerActivos
+-- SP Departamento ObtenerActivos
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Departamento_ObtenerActivos')
     DROP PROCEDURE SP_Departamento_ObtenerActivos;
 GO
@@ -196,7 +196,7 @@ BEGIN
 END
 GO
 
--- SP_Departamento_ObtenerPorId
+-- SP Departamento ObtenerPorId
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Departamento_ObtenerPorId')
     DROP PROCEDURE SP_Departamento_ObtenerPorId;
 GO
@@ -217,7 +217,7 @@ GO
 USE PerfilesSA_DB;
 GO
 
--- SP_Empleado_Insertar
+-- SP Empleado Insertar
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_Insertar')
     DROP PROCEDURE SP_Empleado_Insertar;
 GO
@@ -257,7 +257,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_Actualizar
+-- SP Empleado Actualizar
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_Actualizar')
     DROP PROCEDURE SP_Empleado_Actualizar;
 GO
@@ -307,7 +307,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_CambiarEstado
+-- SP Empleado CambiarEstado
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_CambiarEstado')
     DROP PROCEDURE SP_Empleado_CambiarEstado;
 GO
@@ -331,7 +331,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_ObtenerPorId (con Edad y Antigüedad en tiempo real)
+-- SP Empleado ObtenerPorId (con Edad y AntigÃ¼edad en tiempo real)
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_ObtenerPorId')
     DROP PROCEDURE SP_Empleado_ObtenerPorId;
 GO
@@ -370,7 +370,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_ObtenerTodos
+-- SP Empleado ObtenerTodos
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_ObtenerTodos')
     DROP PROCEDURE SP_Empleado_ObtenerTodos;
 GO
@@ -408,7 +408,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_ReportePorDepartamento (con filtros opcionales)
+-- SP Empleado ReportePorDepartamento (con filtros opcionales)
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_ReportePorDepartamento')
     DROP PROCEDURE SP_Empleado_ReportePorDepartamento;
 GO
