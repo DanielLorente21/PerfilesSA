@@ -1,7 +1,7 @@
 USE PerfilesSA_DB;
 GO
 
--- SP_Empleado_Insertar
+-- SP Empleado Insertar
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_Insertar')
     DROP PROCEDURE SP_Empleado_Insertar;
 GO
@@ -41,7 +41,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_Actualizar
+-- SP Empleado Actualizar
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_Actualizar')
     DROP PROCEDURE SP_Empleado_Actualizar;
 GO
@@ -91,7 +91,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_CambiarEstado
+-- SP Empleado CambiarEstado
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_CambiarEstado')
     DROP PROCEDURE SP_Empleado_CambiarEstado;
 GO
@@ -115,7 +115,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_ObtenerPorId (con Edad y Antigüedad en tiempo real)
+-- SP Empleado ObtenerPorId (con Edad y Antiguedad en tiempo real)
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_ObtenerPorId')
     DROP PROCEDURE SP_Empleado_ObtenerPorId;
 GO
@@ -154,7 +154,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_ObtenerTodos
+-- SP Empleado ObtenerTodos
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_ObtenerTodos')
     DROP PROCEDURE SP_Empleado_ObtenerTodos;
 GO
@@ -192,7 +192,7 @@ BEGIN
 END
 GO
 
--- SP_Empleado_ReportePorDepartamento (con filtros opcionales)
+-- SP Empleado ReportePorDepartamento (con filtros opcionales)
 IF EXISTS (SELECT * FROM sys.procedures WHERE name = 'SP_Empleado_ReportePorDepartamento')
     DROP PROCEDURE SP_Empleado_ReportePorDepartamento;
 GO
